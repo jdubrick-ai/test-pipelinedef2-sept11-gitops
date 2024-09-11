@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: test-pipelinedef2-sept11-gitops-repository
+spec:
+  url: https://github.com/jdubrick-ai/test-pipelinedef2-sept11-gitops
